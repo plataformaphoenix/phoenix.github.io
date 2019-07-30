@@ -1,0 +1,18 @@
+/* Home section */
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/bg.png);
+    background-position: center top;
+	background-size:cover;
+}
+.home img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.phoneimg{
+    height: 75vh;
+
+}
