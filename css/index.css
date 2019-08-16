@@ -20,10 +20,10 @@
 }
 
 .sobre, .contato {
-    margin-top: 8vh;
+    margin-top: 6vh;
     position: relative;
-    height: 50vh;
-    margin-bottom: 5vh;
+    height: 55vh;
+    margin-bottom: 4vh;
 }
 
 .rightside {
@@ -46,7 +46,7 @@
     width: 37vw;
     min-height: 100%;
     right: 2vw;
-    background: url(../assets/AboutMobile.png);
+    background: url(../assets/AboutMobile.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 19px;
