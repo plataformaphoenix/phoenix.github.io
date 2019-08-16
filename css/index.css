@@ -5,14 +5,146 @@
     height: 100vh;
     background-image: url(../assets/bg.png);
     background-position: center top;
-	background-size:cover;
+    background-size: cover;
+    background-attachment: fixed;
 }
-.home img{
+
+.home img {
     position: absolute;
     bottom: 0;
     right: 0;
 }
-.phoneimg{
-    height: 75vh;
 
+.phoneimg {
+    height: 75vh;
+}
+
+.sobre, .contato {
+    margin-top: 8vh;
+    position: relative;
+    height: 50vh;
+    margin-bottom: 5vh;
+}
+
+.rightside {
+    width: 50vw;
+    height: 90%;
+    position: absolute;
+    right: 0;
+}
+
+.leftside {
+    width: 50vw;
+    height: 90%;
+    position: absolute;
+    left: 0;
+}
+
+.imgleft, .imgright {
+    right: 10%;
+    position: absolute;
+    width: 37vw;
+    min-height: 100%;
+    right: 2vw;
+    background: url(../assets/AboutMobile.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 19px;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
+}
+
+.imgright {
+    left: 2vw;
+    background: url(../assets/contact.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.myH2 {
+    font-style: italic;
+    text-align: justify;
+    font-size: 3.5rem;
+    color: #4B585C;
+    padding-left: 4%;
+    padding-right: 15%;
+    margin: 0;
+    padding-top: 2%;
+}
+
+.myH1 {
+    font-style: italic;
+    text-align: right;
+    font-size: 4.5rem;
+    color: #4B585C;
+    padding-left: 15%;
+    padding-right: 4%;
+    margin: 0;
+    padding-top: 2%;
+}
+
+.myBanner {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 3.5rem;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.myP {
+    text-align: right;
+    padding-left: 4%;
+    padding-right: 20%;
+    font-size: 2rem;
+    line-height: 4rem;
+    color: #727F84;
+}
+.contact {
+    text-align: right;
+    padding-left: 20%;
+    padding-right: 4%;
+    font-size: 3rem;
+    line-height: 6rem;
+    color: #727F84;
+}
+
+.desenvolvedoras {
+    display: inline-block;
+    margin-top: 5vh;
+    width: 100%;
+    height: 55vh;
+    background-color: #c1e0f7;
+    position: relative;
+    margin-bottom: 3vh;
+    text-align: -webkit-center;
+}
+
+.beiradinha {
+    height: 4vh;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    position: absolute;
+}
+
+.banner {
+    z-index: 10;
+    height: 8vh;
+    width: 40vw;
+    background-color: #ffcc29;
+    position: relative;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.footer {
+    width: 100vw;
+    height: 10vh;
+    background-color: #c1e0f7;
+    position: absolute;
 }

@@ -7,8 +7,9 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/index.css">
   <script type="text/javascript" src="jsfile.js"></script>
-  
+
 
   <title>Projeto Phoenix</title>
 
@@ -33,61 +34,89 @@
     </div>
   </nav>
 
-
-
-
-
-
-
+  <!-- ENTRADA DO SITE -->
   <div class="home">
-      <img class="phoneimg" src="assets/phone.png" alt="Phoenix">
+    <img class="phoneimg" src="assets/phone.png" alt="Phoenix">
   </div>
 
   <div style="height: 1000px">
-      <!-- just to make scrolling effect possible -->
-    <h2 class="myH2">What is this ?</h2>
-    <p class="myP">This is a responsive fixed navbar animated on scroll</p>
-    <p class="myP">I took inspiration from  ABDO STEIF (<a href="https://codepen.io/abdosteif/pen/bRoyMb?editors=1100">https://codepen.io/abdosteif/pen/bRoyMb?editors=1100</a>)
-    and Dicson <a href="https://codepen.io/dicson/pen/waKPgQ">(https://codepen.io/dicson/pen/waKPgQ)</a></p>
-    <p class="myP">I HOPE YOU FIND THIS USEFULL</p>
-    <p class="myP">Albi</p>
-      <p class="myP">
-      
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
-    </p>
-  </div>
-
-<!-- Jquery needed -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="js/scripts.js"></script>
-
-<!-- Function used to shrink nav bar removing paddings and adding black background -->
-  <script>
-      $(window).scroll(function() {
-          if ($(document).scrollTop() > 50) {
-              $('.nav').addClass('affix');
-              console.log("OK");
-          } else {
-              $('.nav').removeClass('affix');
-          }
-      });
-  </script>
-  
-
-
-
-
-  <l ink href="css/navbar.css" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet">
-
 </head>
 
+<!-- CONTEUDO DA PÁGINA -->
+
+<!-- SOBRE A PHOENIX -->
+
 <body>
+  <div class="sobre">
+    <div class="leftside">
+      <div class="imgleft"></div>
+    </div>
+
+    <div class="rightside">
+      <h2 class="myH2">O que é a Phoenix?</h2>
+      <p class="myP">
+        Phoenix é uma plataforma para o auxílio na comunicação de adolescentes que sofrem de depressão.
+        O projeto tem como principal objetivo possibilitar maior interação entre o paciente e o psicólogo,
+        auxiliando o psicólogo no acompanhamento frequente do estado do enfermo e promovendo um ambiente
+        confortável para que o adolescente com depressão fale sobre sua rotina. O Projeto Phoenix foi
+        desenvolvido por alunas do técnico de Informática do Instituto Federal de Educação, Ciência
+        e Tecnologia Sul-Rio-Grandense, Câmpus Sapucaia do sul
+      </p>
+    </div>
+  </div>
+  <!-- FIM DO SOBRE -->
+  
+  <!-- DESENVOLVEDORAS DO PROJETO -->
+  <div class="desenvolvedoras">
+    <div class="banner">
+      <h2 class="myBanner"> Quem desenvolveu o projeto</a>
+      </div>
+      <div class="beiradinha"></div>
+      
+      
+    </div>
+    <!-- FIM DAS DESENVOLVEDORAS -->
+
+  <!-- CONTATO -->
+
+  <div class="contato">
+    <div class="rightside">
+      <div class="imgright"></div>
+    </div>
+
+    <div class="leftside">
+      <h2 class="myH1">Entre em contato conosco</h2>
+      <p class="contact">
+          Projeto Phoenix<br>
+          plataformaphoenix@gmail.com<br>
+          Projeto Phoenix
+      </p>
+    </div>
+  </div>
+  <!-- FIM DO CONTATO -->
+
+  <!-- FOOTER -->
+
+  <div class="footer"> </div>
 
 </body>
+
+<!-- JAVASCRIPT -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+<script>
+  $(window).scroll(function () {
+    if ($(document).scrollTop() > 50) {
+      $('.nav').addClass('affix');
+      console.log("OK");
+    } else {
+      $('.nav').removeClass('affix');
+    }
+  });
+</script>
+
+
 
 </html>
