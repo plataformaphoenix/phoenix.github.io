@@ -19,10 +19,15 @@
     height: 75vh;
 }
 
+.subtext {
+    left: 0;
+    height: 45vh;
+}
+
 .sobre, .contato {
     margin-top: 6vh;
     position: relative;
-    height: 55vh;
+    height: 65vh;
     margin-bottom: 4vh;
 }
 
@@ -63,7 +68,7 @@
 .myH2 {
     font-style: italic;
     text-align: justify;
-    font-size: 3.5rem;
+    font-size: 2vw;
     color: #4B585C;
     padding-left: 4%;
     padding-right: 15%;
@@ -74,7 +79,7 @@
 .myH1 {
     font-style: italic;
     text-align: right;
-    font-size: 4.5rem;
+    font-size: 2.3vw;
     color: #4B585C;
     padding-left: 15%;
     padding-right: 4%;
@@ -85,7 +90,7 @@
 .myBanner {
     font-weight: normal;
     font-style: italic;
-    font-size: 3.5rem;
+    font-size: 1.8vw;
     color: rgb(255, 255, 255);
     position: absolute;
     width: 100%;
@@ -100,24 +105,31 @@
     text-align: justify;
     padding-left: 4%;
     padding-right: 20%;
-    font-size: 2rem;
-    line-height: 4rem;
+    font-size: 1vw;
+    line-height: 2vw;
     color: #727F84;
 }
+
 .contact {
     text-align: right;
     padding-left: 20%;
     padding-right: 4%;
-    font-size: 3rem;
-    line-height: 6rem;
+    font-size: 1.5vw;
+    line-height: 4vw;
     color: #727F84;
+}
+
+.ico {
+    height: 6vh;
+    transform: translateY(30%);
+    padding-left: 1vh;
 }
 
 .desenvolvedoras {
     display: inline-block;
     margin-top: 5vh;
     width: 100%;
-    height: 55vh;
+    height: 60vh;
     background-color: #c1e0f7;
     position: relative;
     margin-bottom: 3vh;
@@ -142,3 +154,66 @@
     border-radius: 15px;
 }
 
+.note {
+    font-size: 1.5vh;
+    color: #5B6568;
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    padding-bottom: 1vh;
+}
+
+.idcard {
+    display: flex;
+    padding: 5vh;
+
+}
+
+.idtext{
+    padding: 5vh;
+}
+
+.devs{
+display: flex;
+align-content: center;
+width: fit-content;
+}
+.socialmediaright{
+    display: flex;
+    float: right;
+}
+
+.socialmedialeft{
+    display: flex;
+    float: left;
+}
+
+.smico{
+    height: 6vh;
+    padding: 1vh;
+}
+
+.dev {
+    height: 35vh;
+}
+
+.devtext {
+    font-size: 2vw;
+    color: #727F84;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.premios{
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    margin-top: 6vh;
+    margin-bottom: 10vh;
+}
+
+.premiaçoes{
+    width: 80vw;
+}
