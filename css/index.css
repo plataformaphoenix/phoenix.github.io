@@ -1,4 +1,7 @@
 /* Home section */
+.phoneimg_mobile, .subtext_mobile{
+    display: none;
+}
 
 .home {
     width: 100%;
@@ -216,4 +219,8 @@ width: fit-content;
 
 .premiaçoes{
     width: 80vw;
+}
+
+.premiaçoes_mobile{
+    display: none;
 }

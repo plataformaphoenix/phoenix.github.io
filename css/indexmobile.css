@@ -1,0 +1,44 @@
+
+@media (max-width: 700px) {
+    .phoneimg, .subtext, .nav{
+        display: none;
+    }
+    .home {
+        width: 100vw;
+        height: 100vh;
+        background-image: url(../assets/bgmobile.png);
+        background-position: center top;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+  
+    .phoneimg_mobile {
+        display: flex;
+        width: 100vw;
+    }
+    
+    .subtext_mobile {
+        display: flex;
+        top: 20vw;
+        width: 100vw;
+    }
+    
+    .desenvolvedoras{
+        display: none;
+    }
+
+    .premiaçoes{
+        display: none;
+    }
+    
+    .premiaçoes_mobile{
+        width: 80vw;
+        display: inline;
+    }
+
+    .rightside {
+        display: none;
+    }
+
+}   
