@@ -1,9 +1,10 @@
 /* Home section */
-.phoneimg_mobile, .subtext_mobile{
+.phoneimg_mobile, .subtext_mobile, hr, .logo_mobile {
     display: none;
 }
 
 .home {
+    position: relative;
     width: 100%;
     height: 100vh;
     background-image: url(../assets/bg.png);
@@ -34,27 +35,27 @@
     margin-bottom: 4vh;
 }
 
-.rightside {
-    width: 50vw;
-    height: 90%;
-    position: absolute;
-    right: 0;
-}
-
-.leftside {
+.phoenixtxt, .contatoimg {
     width: 50vw;
     height: 90%;
     position: absolute;
     left: 0;
 }
 
+.phoeniximg, .contatotxt {
+    width: 50vw;
+    height: 90%;
+    position: absolute;
+    right: 0;
+}
+
 .imgleft, .imgright {
+    background: url(../assets/contact.png);
     right: 10%;
     position: absolute;
     width: 37vw;
     min-height: 100%;
     right: 2vw;
-    background: url(../assets/AboutMobile.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 19px;
@@ -63,29 +64,29 @@
 
 .imgright {
     left: 2vw;
-    background: url(../assets/contact.png);
+    background: url(../assets/AboutMobile.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .myH2 {
     font-style: italic;
-    text-align: justify;
+    text-align: right;
     font-size: 2vw;
     color: #4B585C;
-    padding-left: 4%;
-    padding-right: 15%;
+    padding-left: 15%;
+    padding-right: 4%;
     margin: 0;
     padding-top: 2%;
 }
 
 .myH1 {
     font-style: italic;
-    text-align: right;
+    text-align: left;
     font-size: 2.3vw;
     color: #4B585C;
-    padding-left: 15%;
-    padding-right: 4%;
+    padding-left: 4%;
+    padding-right: 15%;
     margin: 0;
     padding-top: 2%;
 }
@@ -105,18 +106,18 @@
 }
 
 .myP {
-    text-align: justify;
-    padding-left: 4%;
-    padding-right: 20%;
-    font-size: 1vw;
-    line-height: 2vw;
-    color: #727F84;
-}
-
-.contact {
     text-align: right;
     padding-left: 20%;
     padding-right: 4%;
+    font-size: 1.1vw;
+    line-height: 4vh;
+    color: #727F84;
+}
+
+.contatoitem{
+    text-align: left;
+    padding-left: 4%;
+    padding-right: 20%;
     font-size: 1.5vw;
     line-height: 4vw;
     color: #727F84;
@@ -125,7 +126,7 @@
 .ico {
     height: 6vh;
     transform: translateY(30%);
-    padding-left: 1vh;
+    padding-right: 1vh;
 }
 
 .desenvolvedoras {
@@ -198,7 +199,7 @@ width: fit-content;
 }
 
 .dev {
-    height: 35vh;
+    width: 18vw;
 }
 
 .devtext {

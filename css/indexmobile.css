@@ -4,6 +4,7 @@
         display: none;
     }
     .home {
+        position: relative;
         width: 100vw;
         height: 100vh;
         background-image: url(../assets/bgmobile.png);
@@ -12,6 +13,20 @@
         background-attachment: fixed;
     }
     
+    .logo_mobile{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        height: 8.5vh;
+    }
+
+    .logo_mobile .navimg{
+        right: unset;
+        top: unset;
+        margin: 0;
+    }
   
     .phoneimg_mobile {
         display: flex;
@@ -22,6 +37,44 @@
         display: flex;
         top: 20vw;
         width: 100vw;
+    }
+
+    .sobre{
+        height: min-content;
+    }
+    .phoeniximg {
+        width: 100vw;
+        height: 20vh;
+        position: relative;
+        text-align: center;
+    }
+    .phoenixtxt {
+        width: fit-content;
+        position: relative;
+        padding-top: 3vh;
+        padding: 2vh;
+        height: fit-content;
+    }
+
+    .myH2{
+        font-size: 8vw;
+        text-align: center;
+        padding: 0;    
+    }
+
+    .myP{
+        text-align: justify;
+        font-size: 4vw;
+        padding: 2vh;
+        margin: 0;
+    }
+
+    .imgright {
+        left: 0;
+        right: 0;
+        position: relative;
+        width: 90vw;
+        display: inline-block;
     }
     
     .desenvolvedoras{
@@ -37,8 +90,39 @@
         display: inline;
     }
 
-    .rightside {
+    .contatoimg {
         display: none;
+    }
+
+    .contato{
+        height: min-content;
+    }
+
+    .contatotxt {
+        width: 100vw;
+        height: min-content;
+        position: relative;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    .myH1 {
+        font-style: italic;
+        text-align: center;
+        font-size: 8vw;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    hr{
+        display: flex;
+        width: 80vw;
+    }
+    .contatoitem {
+        text-align: left;
+        padding-left: 6%;
+        padding-right: 6%;
+        font-size: 4.5vw;
+        line-height: 8vw;
     }
 
 }   
