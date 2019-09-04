@@ -19,13 +19,14 @@
         width: 100%;
         position: absolute;
         top: 0;
-        height: 8.5vh;
+        height: 9vh;
     }
 
     .logo_mobile .navimg{
         right: unset;
         top: unset;
         margin: 0;
+        height: -webkit-fill-available;
     }
   
     .phoneimg_mobile {
@@ -35,7 +36,7 @@
     
     .subtext_mobile {
         display: flex;
-        top: 20vw;
+        top: 8vh;
         width: 100vw;
     }
 
