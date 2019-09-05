@@ -24,7 +24,7 @@
       <div id="mainListDiv" class="main_list">
         <ul class="navlinks">
           <li><a href="#">About Phoenix</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="#contato">Contact Us</a></li>
         </ul>
       </div>
       <span class="navTrigger">
@@ -141,7 +141,7 @@
 
   <!-- CONTATO -->
 
-  <div class="contato">
+  <div id="contato" class="contato">
     <hr>
     <div class="contatoimg">
       <div class="imgleft"></div>
@@ -189,6 +189,27 @@
       $('.nav').removeClass('affix');
     }
   });
+</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        window.location.hash = hash;
+      });
+  });
+});
 </script>
 
 
