@@ -1,18 +1,9 @@
 
-@media (max-width: 700px) {
-    .phoneimg, .subtext, .nav{
+@media (max-width: 1024px) {
+    .subtext, .nav{
         display: none;
     }
-    .home {
-        position: relative;
-        width: 100vw;
-        height: 100vh;
-        background-image: url(../assets/bgmobile.png);
-        background-position: center top;
-        background-size: cover;
-        background-attachment: fixed;
-    }
-    
+
     .logo_mobile{
         display: flex;
         justify-content: center;
@@ -28,17 +19,19 @@
         margin: 0;
         height: -webkit-fill-available;
     }
-  
-    .phoneimg_mobile {
-        display: flex;
+
+    .phoneimg {
         width: 100vw;
+        height: unset;
     }
-    
+
     .subtext_mobile {
         display: flex;
         top: 8vh;
         width: 100vw;
     }
+
+    
 
     .sobre{
         height: min-content;
@@ -53,7 +46,7 @@
         width: fit-content;
         position: relative;
         padding-top: 3vh;
-        padding: 2vh;
+        padding: 5vh;
         height: fit-content;
     }
 
@@ -65,29 +58,32 @@
 
     .myP{
         text-align: justify;
-        font-size: 4vw;
+        font-size: 3vw;
+        line-height: 5vh;
         padding: 2vh;
         margin: 0;
-    }
+}
 
     .imgright {
         left: 0;
         right: 0;
         position: relative;
-        width: 90vw;
+        width: 85vw;
         display: inline-block;
     }
-    
+
     .desenvolvedoras{
         display: none;
     }
+
+
 
     .premiaçoes{
         display: none;
     }
     
     .premiaçoes_mobile{
-        width: 80vw;
+        width: 60vw;
         display: inline;
     }
 
@@ -104,7 +100,7 @@
         height: min-content;
         position: relative;
         margin-top: 2vh;
-        margin-bottom: 2vh;
+        margin-bottom: 4vh;
     }
     .myH1 {
         font-style: italic;
@@ -120,10 +116,78 @@
     }
     .contatoitem {
         text-align: left;
-        padding-left: 6%;
-        padding-right: 6%;
+        padding-left: 8%;
+        padding-right: 8%;
         font-size: 4.5vw;
         line-height: 8vw;
     }
+}
+
+
+
+
+@media (max-width: 600px) and (orientation: portrait) {
+    .phoneimg {
+        display: none;
+    }
+    .home {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        background-image: url(../assets/bgmobile.png);
+        background-position: center top;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+      
+    .phoneimg_mobile {
+        display: flex;
+        width: 100vw;
+    }
+    
+    
+
+    .sobre{
+        height: min-content;
+    }
+    .phoeniximg {
+        width: 100vw;
+        height: 20vh;
+        position: relative;
+        text-align: center;
+    }
+    .phoenixtxt {
+        padding-top: 3vh;
+        padding: 2vh;
+    }
+
+    .myP{
+        font-size: 4vw;
+        padding: 2vh;
+    }
+
+    .imgright {
+        width: 90vw;
+    }
+    
+    .desenvolvedoras{
+        display: none;
+    }
+    
+    .premiaçoes_mobile{
+        width: 80vw;
+    }
+
+    .contatoitem {
+        padding-left: 6%;
+        padding-right: 6%;
+        
+    }
 
 }   
+
+@media (max-width: 350px) and (orientation: portrait) {
+    .subtext_mobile{
+        display: none;
+    }
+}
