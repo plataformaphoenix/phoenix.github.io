@@ -15,17 +15,18 @@
 
 .home img {
     position: absolute;
-    bottom: 0;
-    right: 0;
 }
 
 .phoneimg {
     height: 75vh;
+    right: 0;
+    bottom: 0;
 }
 
 .subtext {
     left: 0;
     height: 45vh;
+    bottom: 0;
 }
 
 .sobre, .contato {

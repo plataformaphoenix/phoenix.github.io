@@ -23,25 +23,28 @@
     .phoneimg {
         width: 100vw;
         height: unset;
+        bottom: 0;
     }
 
     .subtext_mobile {
         display: flex;
-        top: 8vh;
-        width: 100vw;
+        top: 15vh;
+        width: 60vw;
+        left: 50%;
+        transform: translate(-50%);
     }
-
-    
 
     .sobre{
         height: min-content;
     }
+
     .phoeniximg {
         width: 100vw;
         height: 30vh;
         position: relative;
         text-align: center;
     }
+
     .phoenixtxt {
         width: fit-content;
         position: relative;
@@ -72,17 +75,63 @@
         display: inline-block;
     }
 
-    .desenvolvedoras{
-        display: none;
+    .devtext {
+        font-size: 5vw;
+        margin-bottom: 1vh;
     }
 
+    .smico {
+        height: 4vh;
+        padding: 0.5vh;
+    }
 
+    .dev {
+        width: 35vw;
+        height: 35vw;
+    }
+
+    .banner {
+        width: 85vw;
+        height: 7vh;
+    }
+
+    .myBanner{
+        font-size: 5vw;
+    }
+
+    .idtext {
+        padding: 2vh;
+    }
+
+    .devs{
+        display: contents;
+
+    }
+
+    .desenvolvedoras{
+        position: relative;
+        height: fit-content;
+    }
+
+    .note{
+        width: 80vw;
+        position: relative;
+        left: unset;
+        transform: unset;
+        font-size: 2vh;
+    }
+
+    .idcard {
+        padding: 2vh;
+        justify-content: center;
+    }
 
     .premiaçoes{
         display: none;
     }
     
     .premiaçoes_mobile{
+        position: relative;
         width: 60vw;
         display: inline;
     }
@@ -143,9 +192,17 @@
     .phoneimg_mobile {
         display: flex;
         width: 100vw;
+        bottom: 0;
+    }
+
+    .subtext_mobile {
+        top: 11vh;
+        width: 80vw;
     }
     
-    
+    .note{
+        font-size: 3.5vw;
+    }
 
     .sobre{
         height: min-content;
@@ -167,10 +224,6 @@
         width: 90vw;
     }
     
-    .desenvolvedoras{
-        display: none;
-    }
-    
     .premiaçoes_mobile{
         width: 80vw;
     }
@@ -184,7 +237,8 @@
 }   
 
 @media (max-width: 350px) and (orientation: portrait) {
-    .subtext_mobile{
-        display: none;
+    .subtext_mobile {
+        top: 11vh;
+        width: 70vw;
     }
 }
