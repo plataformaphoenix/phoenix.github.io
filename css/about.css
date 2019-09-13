@@ -94,5 +94,9 @@
 }
 
 @media (max-width: 350px) and (orientation: portrait) {
+    .myP {
+        font-size: 2.7vh;
+        line-height: 5vh;
+    }
 
 }
