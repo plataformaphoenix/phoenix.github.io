@@ -14,5 +14,85 @@
 .quote {
     margin: auto;
     display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     
+}
+
+.myH2 {
+    font-style: italic;
+    text-align: center;
+    font-size: 5vh;
+    color: #4B585C;
+    padding-top: 2%;
+}
+
+.myP {
+    font-size: 1.7vh;
+    line-height: 4vh;
+    color: #727F84;
+    text-align: justify;
+}
+.sobrephoenix{
+    padding-left: 21vw;
+    padding-right: 21vw;
+    margin-bottom: 10vh;
+}
+
+@media (max-width: 1024px) and (orientation: portrait) {
+    .nav{
+        display: none;
+    }
+
+    .logo_mobile{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        height: 9vh;
+    }
+
+    .about{
+        background-position: right;
+    }
+
+    .quote {
+        margin-top: 2vh;
+        width: 65vw;
+    }
+
+    .sobrephoenix {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }   
+
+}
+
+@media (max-width: 600px) and (orientation: portrait) {
+
+    .about {
+        background-image: url(../assets/aboutbg_mobile.png);
+    }
+
+    .quote {
+        width: 90vw;
+    }
+
+    .myP {
+        font-size: 2.3vh;
+        line-height: 4.5vh;
+    }
+    .sobrephoenix {
+        padding-left: 6vw;
+        padding-right: 6vw;
+        margin-bottom: 7vh;
+    } 
+
+}
+
+@media (max-width: 350px) and (orientation: portrait) {
+
 }
