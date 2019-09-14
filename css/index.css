@@ -1,5 +1,9 @@
 /* Home section */
-.phoneimg_mobile, .subtext_mobile, hr, .logo_mobile {
+
+.phoneimg_mobile,
+.subtext_mobile,
+hr,
+.logo_mobile {
     display: none;
 }
 
@@ -18,7 +22,7 @@
 }
 
 .phoneimg {
-    height: 75vh;
+    height: 80vh;
     right: 0;
     bottom: 0;
 }
@@ -29,28 +33,32 @@
     bottom: 0;
 }
 
-.sobre, .contato {
+.sobre,
+.contato {
     margin-top: 6vh;
     position: relative;
     height: 65vh;
     margin-bottom: 4vh;
 }
 
-.phoenixtxt, .contatoimg {
+.phoenixtxt,
+.contatoimg {
     width: 50vw;
     height: 90%;
     position: absolute;
     left: 0;
 }
 
-.phoeniximg, .contatotxt {
+.phoeniximg,
+.contatotxt {
     width: 50vw;
     height: 90%;
     position: absolute;
     right: 0;
 }
 
-.imgleft, .imgright {
+.imgleft,
+.imgright {
     background: url(../assets/contact.png);
     right: 10%;
     position: absolute;
@@ -115,7 +123,7 @@
     color: #727F84;
 }
 
-.contatoitem{
+.contatoitem {
     text-align: left;
     padding-left: 4%;
     padding-right: 20%;
@@ -172,29 +180,29 @@
 .idcard {
     display: flex;
     padding: 5vh;
-
 }
 
-.idtext{
+.idtext {
     padding: 5vh;
 }
 
-.devs{
-display: flex;
-align-content: center;
-width: fit-content;
+.devs {
+    display: flex;
+    align-content: center;
+    width: fit-content;
 }
-.socialmediaright{
+
+.socialmediaright {
     display: flex;
     float: right;
 }
 
-.socialmedialeft{
+.socialmedialeft {
     display: flex;
     float: left;
 }
 
-.smico{
+.smico {
     height: 6vh;
     padding: 1vh;
 }
@@ -212,7 +220,7 @@ width: fit-content;
     margin-bottom: 0;
 }
 
-.premios{
+.premios {
     margin-left: auto;
     margin-right: auto;
     display: table;
@@ -220,10 +228,10 @@ width: fit-content;
     margin-bottom: 10vh;
 }
 
-.premiaçoes{
+.premiaçoes {
     width: 80vw;
 }
 
-.premiaçoes_mobile{
+.premiaçoes_mobile {
     display: none;
 }
