@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/about.css">
+    <script type="text/javascript" src="jsfile.js"></script>
+
+
+    <title>Projeto Phoenix</title>
+
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="./">
+                    <img class="navimg" src="assets/logo.png" alt="Phoenix">
+                </a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="./br">Página Inicial</a></li>
+                    <li><a href="./br#contato">Contate-nos</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+        <i></i>
+        <i></i>
+        <i></i>
+      </span>
+        </div>
+    </nav>
+
+
+    <!-- ENTRADA DO SITE -->
+    <div class="about">
+        <!-- MOBILE -->
+        <div class="logo_mobile">
+            <img class="navimg" src="assets/logo.png" alt="Phoenix">
+        </div>
+        <!-- MOBILE -->
+
+        <img class="quote" src="assets/citação.svg" alt="Phoenix">
+    </div>
+
+</head>
+
+<!-- CONTEUDO DA PÁGINA -->
+
+<!-- SOBRE A PHOENIX -->
+<div class="sobrephoenix">
+    <h2 class="myH2">Resumo do Projeto</h2>
+    <p class="myP">
+        A Organização Mundial de Saúde afirma que a depressão é uma das doenças mais incapacitantes do mundo e atinge mais de 4% da população mundial, majoritariamente jovens de 15 a 29 anos, causando taxas alarmantes de suicídio. Demais pesquisas apontam a dificuldade
+        que uma pessoa com depressão possui em falar sobre o assunto fora do contexto de terapia. Tendo em vista esses fatores, o presente trabalho tem como objetivo desenvolver uma plataforma, denominada Phoenix, que possibilite maior interação entre
+        o paciente e o psicólogo, através de duas frentes: uma plataforma para a visualização de dados auxiliando no acompanhamento frequente do estado do enfermo voltado para os profissionais da psicologia e um chatbot para que o adolescente com depressão
+        fale sobre sua rotina. Primeiramente, são apresentados conceitos acerca da Depressão na Psicologia, Depressão na Adolescência, Terapia Cognitivo Comportamental como Técnica para o Tratamento da Depressão e Psicologia e Informática, em que foi
+        identificada a possibilidade de utilizar a terapia cognitivo comportamental no chatbot do projeto e, posteriormente, a aplicação de questionários online com usuários não identificados com os futuros usuários em potencial. O objeto do estudo é
+        a depressão na adolescência, e por se tratar de uma pesquisa tecnológica, foram analisados trabalhos relacionados na qual foi possível observar principalmente a falta que os trabalhos existentes tem da interface com o profissional da psicologia.
+        Na plataforma, serão utilizadas as seguintes tecnologias: Botkit Studio e Dialogflow para a produção do chatbot, a biblioteca React, desenvolvida pelo Facebook, para a criação de uma plataforma web que utilizada pelos profissionais da psicologia,
+        e Java para a Web API, utilizando os frameworks Spring Boot para disponibilização da API, Spring Security para segurança do tráfego de dados, e o Spring Data para a comunicação com o banco de dados relacional MySQL. Como resultados da presente
+        pesquisa evidencia-se a falta da informatização da rotina da psicoterapia com a interface com o profissional, além de indicar uma aceitação de inovações tecnológicas pela área da psicologia. Em suma, é possível observar a importância do acompanhamento
+        frequente de pacientes que estão em um estágio depressivo, possibilitando o desenvolvimento de uma plataforma para auxiliar nesse acompanhamento. De uma forma geral, espera-se que a plataforma Phoenix ofereça ao adolescente portador de depressão
+        um ambiente favorável para que ele possa conversar mesmo estando fora do contexto de terapia, além de fornecer relatórios para o psicólogo que o acompanha ter maior conhecimento sobre o caso e estágio da enfermidade.
+        <br>
+        <br>
+        <b>Palavras-chave:</b> Psicologia. Depressão na Adolescência. Tratamento. Chatbot.
+    </p>
+</div>
+
+<!-- SOBRE A PHOENIX -->
+
+
+<!-- FOOTER -->
+
+<div class="footer">
+    <img class="footerimg" src="assets/phoenix.png" alt="Phoenix">
+</div>
+
+</body>
+
+<!-- JAVASCRIPT -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+<script>
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+            $('.nav').addClass('affix');
+            console.log("OK");
+        } else {
+            $('.nav').removeClass('affix');
+        }
+    });
+</script>
+
+</html>
