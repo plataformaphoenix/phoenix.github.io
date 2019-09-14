@@ -1,10 +1,9 @@
-
 @media (max-width: 1024px) and (orientation: portrait) {
-    .subtext, .nav{
+    .subtext,
+    .nav {
         display: none;
     }
-
-    .logo_mobile{
+    .logo_mobile {
         display: flex;
         justify-content: center;
         width: 100%;
@@ -12,20 +11,17 @@
         top: 0;
         height: 9vh;
     }
-
-    .logo_mobile .navimg{
+    .logo_mobile .navimg {
         right: unset;
         top: unset;
         margin: 0;
         height: -webkit-fill-available;
     }
-
     .phoneimg {
         width: 100vw;
         height: unset;
         bottom: 0;
     }
-
     .subtext_mobile {
         display: flex;
         top: 15vh;
@@ -33,18 +29,15 @@
         left: 50%;
         transform: translate(-50%);
     }
-
-    .sobre{
+    .sobre {
         height: min-content;
     }
-
     .phoeniximg {
         width: 100vw;
         height: 30vh;
         position: relative;
         text-align: center;
     }
-
     .phoenixtxt {
         width: fit-content;
         position: relative;
@@ -52,21 +45,18 @@
         padding: 5vh;
         height: fit-content;
     }
-
-    .myH2{
+    .myH2 {
         font-size: 6vw;
         text-align: center;
-        padding: 0;    
+        padding: 0;
     }
-
-    .myP{
+    .myP {
         text-align: justify;
         font-size: 2.5vw;
-    line-height: 4vh;
+        line-height: 4vh;
         padding: 2vh;
         margin: 0;
-}
-
+    }
     .imgright {
         left: 0;
         right: 0;
@@ -74,76 +64,60 @@
         width: 85vw;
         display: inline-block;
     }
-
     .devtext {
         font-size: 5vw;
         margin-bottom: 1vh;
     }
-
     .smico {
         height: 4vh;
         padding: 0.5vh;
     }
-
     .dev {
         width: 35vw;
         height: 35vw;
     }
-
     .banner {
         width: 85vw;
         height: 7vh;
     }
-
-    .myBanner{
+    .myBanner {
         font-size: 5vw;
     }
-
     .idtext {
         padding: 2vh;
     }
-
-    .devs{
+    .devs {
         display: contents;
-
     }
-
-    .desenvolvedoras{
+    .desenvolvedoras {
         position: relative;
         height: fit-content;
     }
-
-    .note{
+    .note {
         width: 80vw;
         position: relative;
         left: unset;
         transform: unset;
         font-size: 2vh;
     }
-
     .idcard {
         padding: 2vh;
         justify-content: center;
     }
-
-    .premiaçoes{
+    .premiaçoes {
         display: none;
     }
-    
-    .premiaçoes_mobile{
+    .premiaçoes_mobile {
         position: relative;
         width: 60vw;
         display: inline;
     }
-
     .contatoimg {
         display: none;
     }
-
-    .contato{
+    .contato {
         height: min-content;
     }
-
     .contatotxt {
         width: 100vw;
         height: min-content;
@@ -158,8 +132,7 @@
         padding-left: 5%;
         padding-right: 5%;
     }
-
-    hr{
+    hr {
         display: flex;
         width: 80vw;
     }
@@ -171,9 +144,6 @@
         line-height: 8vw;
     }
 }
-
-
-
 
 @media (max-width: 600px) and (orientation: portrait) {
     .phoneimg {
@@ -188,23 +158,19 @@
         background-size: cover;
         background-attachment: fixed;
     }
-      
     .phoneimg_mobile {
         display: flex;
         width: 100vw;
         bottom: 0;
     }
-
     .subtext_mobile {
-        top: 11vh;
+        top: 20vh;
         width: 80vw;
     }
-    
-    .note{
+    .note {
         font-size: 3.5vw;
     }
-
-    .sobre{
+    .sobre {
         height: min-content;
     }
     .phoeniximg {
@@ -214,31 +180,24 @@
         padding-top: 3vh;
         padding: 2vh;
     }
-
-    .myP{
+    .myP {
         font-size: 4vw;
         padding: 2vh;
     }
-
     .imgright {
         width: 90vw;
     }
-    
-    .premiaçoes_mobile{
+    .premiaçoes_mobile {
         width: 80vw;
     }
-
     .contatoitem {
         padding-left: 6%;
         padding-right: 6%;
-        
     }
-
-}   
+}
 
 @media (max-width: 350px) and (orientation: portrait) {
     .subtext_mobile {
-        top: 11vh;
-        width: 70vw;
+        top: 14vh;
     }
 }
