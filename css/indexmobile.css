@@ -199,5 +199,6 @@
 @media (max-width: 350px) and (orientation: portrait) {
     .subtext_mobile {
         top: 14vh;
+        width: 90vw;
     }
 }
